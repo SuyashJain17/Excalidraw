@@ -9,41 +9,7 @@ Features
 🔒 Access Control: Manage public and private drawings with role-based permissions.
 Tech Stack
 Frontend: React.js, TypeScript, Tailwind CSS
-Backend: Node.js, Express.js, Web-Sockets 
-Database: Postgres SQL
+Backend: Node.js, Express.js, Web-Socket
+Database: PostgreSQL
 Real-Time Collaboration: WebSockets
 Authentication: JSON Web Tokens (JWT)
-How to Run Locally
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/excalidraw-clone.git
-cd excalidraw-clone
-Install dependencies:
-
-bash
-Copy
-Edit
-pnpm install
-Configure environment variables in .env:
-
-env
-Copy
-Edit
-DATABASE_URL="your-mongodb-connection-string"
-JWT_SECRET="your-secret-key"
-Start the development server:
-
-bash
-Copy
-Edit
-pnpm dev
-Open the app in your browser at http://localhost:3000.
-
-Roadmap
- Add support for exporting drawings as PNG or SVG.
- Implement advanced shape tools (e.g., arrows, curves).
- Integrate third-party authentication (Google, GitHub).
- Enhance collaboration with live cursors and comments.
